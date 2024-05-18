@@ -1,5 +1,12 @@
+    #section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
     .container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     height: 500px;
 }
@@ -48,7 +55,13 @@ button {
 }
 
 @media screen and (max-width: 768px) {
- 
+    #section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
     .container2 {
         display: flex;
         align-items: center;
