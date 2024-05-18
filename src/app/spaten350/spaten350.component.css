@@ -1,0 +1,91 @@
+    .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.divimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 500px;
+    
+}
+
+.divimg>img {
+    max-height: 400px;
+    max-width: auto;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+    background-color: #ffcc00;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border-width: 0;
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.space {
+    height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .container {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        height: 650px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 390px; 
+    }
+
+    .divimg {
+        width: 400px;    
+    }
+
+    img {
+        
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    p {
+        /* text-align: center; */
+        font-size: 15px;
+    }
+}
