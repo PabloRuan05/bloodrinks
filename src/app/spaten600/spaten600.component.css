@@ -49,11 +49,11 @@ button {
 
 @media screen and (max-width: 768px) {
  
-    .container {
+    .container2 {
         display: flex;
         align-items: center;
         width: 400px;
-        height: 950px;
+        height: 700px;
         margin: 0 auto;
         flex-direction: column;
     }
@@ -70,8 +70,6 @@ button {
     }
 
     img {
-        
-        max-width: 200px;
         max-height: 200px;
     }
 
